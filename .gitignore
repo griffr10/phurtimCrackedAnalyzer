@@ -1,0 +1,47 @@
+# Claude Code related files
+CLAUDE.md
+.claude/
+.claude_*
+claude_*
+*_claude_*
+
+# Build artifacts
+phurtimAnalyzer
+phurtimAnalyzer.exe
+bin/
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output coverage files
+*.out
+
+# Go workspace file
+go.work
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Output directories
+output/
+jabercrack_*/
